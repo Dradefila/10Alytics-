@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 
 if __name__ == "__main__":
-    root = Path('C:/Users/Hi/OneDrive - University of Oulu and Oamk/Documents/EBDS/Python for data statistics') #Path.cwd()
+    root = Path('C:/Users/Hi/OneDrive - University of Oulu and Oamk/Documents/EBDS/Python for data statistics/Assignment_1') #Path.cwd()
     prime_dir = root / "Persons"
     prime_dir.mkdir(parents=True, exist_ok=True)
 
